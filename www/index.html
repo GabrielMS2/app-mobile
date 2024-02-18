@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar (Android only) -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>Template Tab</title>
+    <!-- Path to Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="lib/framework7-bundle.min.css">
+    <!-- CSS PERSONALIZADO PARA MENU-->
+    <link rel="stylesheet" href="css/index.css">
+    <!--Ícones Material Design-->
+    <link rel="stylesheet" href="css/materialdesignicons.min.css">
+    <!--Icones  remix icon-->
+    <link rel="stylesheet" href="css/remixicon/remixicon.css">
+    <link rel="stylesheet" href="css/detalhes.css">
+<link rel="stylesheet" href="css/carrinho.css">
+
+</head>
+
+<body>
+    <!-- App root element -->
+    <div id="app">
+
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view view-main">
+
+            <!-- TAB BAR-->
+            <div id="menuPrincipal"class="toolbar toolbar-bottom">
+                <div class="toolbar-inner display-flex">
+                    <a href="/index/" class="tab-link link active">
+                        <i class="ri-home-5-line"></i>
+                        <span>Home</span>
+                    </a>
+                    <a href="/link2/" class="tab-link link">
+                        <i class="ri-search-line"></i>
+                        <span>Busca</span>
+                    </a>
+                    <a href="/link3/" class="tab-link link">
+                        <i class="ri-heart-3-line"></i>
+                        <span>Favoritos</span>
+                    </a>
+                    <a href="/link4/" class="tab-link link">
+                        <i class="ri-user-line"></i>
+                        <span>Perfil</span>
+                    </a>
+
+                </div>
+            </div>
+
+            <!-- Initial Page, "data-name" contains page name -->
+            <div data-name="index" class="page color-theme-blue">
+
+  <div class="top-nav"> 
+<h1 class="title-logo"><span>Green</span>Tech</h1>
+<a href="/carrinho/" class="btn-cart" data-count="0"><i class="ri-shopping-bag-line"></i></a>
+  </div>
+  <form>
+    <input placeholder="O que você procura?"  type="text">
+    <div class="busca"><i class="ri-search-line"></i></div>
+</form>
+                <!-- Scrollable page content -->
+                <div class="page-content">
+                    <div class="block no-margin-top">
+                        <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img class="img-fluid" src="img/propaganda.png" alt="celular">
+      </div>
+      <div class="swiper-slide">
+        <img  class="img-fluid" src="img/propaganda2.png" alt="prg2">
+      </div>
+      <div class="swiper-slide">
+        <img  class="img-fluid" src="img/propaganda3.png" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img  class="img-fluid" src="img/propaganda4.png" alt="">
+      </div>
+      
+    <div class="swiper-pagination"></div>
+  </div>
+<div id="veja" class="display-flex align-itens-center justify-content-space-between">
+    <h2>Categorias</h2>
+    <a href="#">Veja todas<i class="ri-arrow-right-s-line"></i></a>
+</div>
+<!-- Swiper -->
+<div class="swiper categorias">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <button class="filter-btn active">Todas</button>
+      </div>
+      <div class="swiper-slide">
+        <button class="filter-btn">Smartphones</button>
+    </div>
+    
+    <div class="swiper-slide">
+        <button class="filter-btn">Laptops/Notebooks</button>
+    </div>
+    
+    <div class="swiper-slide">
+        <button class="filter-btn">Tablets</button>
+    </div>
+    
+    <div class="swiper-slide">
+        <button class="filter-btn">Desktops/PCs</button>
+    </div>
+    
+    <div class="swiper-slide">
+        <button class="filter-btn">Smartwatches e Wearables</button>
+    </div>
+    
+    <div class="swiper-slide">
+        <button class="filter-btn">Televisões/Smart TVs</button>
+    </div>
+    
+    <div class="swiper-slide">
+        <button class="filter-btn">Câmeras Digitais</button>
+    </div>
+    
+    <div class="swiper-slide">
+        <button class="filter-btn">Fones de Ouvido e Áudio</button>
+    </div>
+    
+    <div class="swiper-slide">
+        <button class="filter-btn">Dispositivos de Áudio Inteligente</button>
+    </div>
+    
+    <div class="swiper-slide">
+        <button class="filter-btn">Acessórios de Computador</button>
+    </div>
+    
+    <div class="swiper-slide">
+        <button class="filter-btn">Periféricos para Jogos</button>
+    </div>
+    
+    <div class="swiper-slide">
+        <button class="filter-btn">Impressoras e Scanners</button>
+    </div>
+    
+    <div class="swiper-slide">
+        <button class="filter-btn">Produtos de Armazenamento</button>
+    </div>
+    
+    <div class="swiper-slide">
+        <button class="filter-btn">Equipamentos de Rede</button>
+    </div>
+    
+    <div class="swiper-slide">
+        <button class="filter-btn">Produtos de Segurança</button>
+    </div>
+    
+    <div class="swiper-slide">
+        <button class="filter-btn">Dispositivos de Realidade Virtual</button>
+    </div>
+    
+    <div class="swiper-slide">
+        <button class="filter-btn">Dispositivos de Realidade Aumentada</button>
+    </div>
+    
+    <div class="swiper-slide">
+        <button class="filter-btn">Robótica Doméstica</button>
+    </div>
+    
+    <div class="swiper-slide">
+        <button class="filter-btn">Produtos de Energia</button>
+    </div>
+    
+    <div class="swiper-slide">
+        <button class="filter-btn">Componentes Eletrônicos</button>
+    </div>
+    
+    <!-- E assim por diante, para cada categoria -->
+    
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+  <div id="produtos" class="margin-top row display-flex align-itens-center justify-content-start">
+<!--ITEM SKELETON-->
+ <div class="item-card">
+    <a href="/detalhes/" class="item">
+<div class="img-container skeleton-block skeleton-effect-wave">
+</div>
+<div class="nomee-rating">
+<span style="width: 90px;" class="skeleton-effect-wave skeleton-block color-gray radius top"></span>
+<span class="bold margin-right">
+    <span style="width: 40px;" class="skeleton-effect-wave skeleton-block color-gray radius top"></span>
+</a>
+</div>
+</div>
+<!--ITEM SKELETON-->
+<div class="item-card">
+    <a href="/detalhes/" class="item">
+<div class="img-container skeleton-block skeleton-effect-wave">
+</div>
+<div class="nomee-rating">
+<span style="width: 90px;" class="skeleton-effect-wave skeleton-block color-gray radius top"></span>
+<span class="bold margin-right">
+    <span style="width: 40px;" class="skeleton-effect-wave skeleton-block color-gray radius top"></span>
+</a>
+</div>
+    </div>
+    <!--ITEM SKELETON-->
+ <div class="item-card">
+    <a href="/detalhes/" class="item">
+<div class="img-container skeleton-block skeleton-effect-wave">
+</div>
+<div class="nomee-rating">
+<span style="width: 90px;" class="skeleton-effect-wave skeleton-block color-gray radius top"></span>
+<span class="bold margin-right">
+    <span style="width: 40px;" class="skeleton-effect-wave skeleton-block color-gray radius top"></span>
+</a>
+</div>
+    </div>
+    <!--ITEM SKELETON-->
+ <div class="item-card">
+    <a href="/detalhes/" class="item">
+<div class="img-container skeleton-block skeleton-effect-wave">
+</div>
+<div class="nomee-rating">
+<span style="width: 90px;" class="skeleton-effect-wave skeleton-block color-gray radius top"></span>
+<span class="bold margin-right">
+    <span style="width: 40px;" class="skeleton-effect-wave skeleton-block color-gray radius top"></span>
+</a>
+</div>
+  </div>
+  
+</div>   
+                </div><br><br><br><br><br><br><br><br><br>
+            </div>
+        </div>
+    </div>
+    <!-- Path to Framework7 Library Bundle JS-->
+    <script type="text/javascript" src="lib/framework7-bundle.min.js"></script>
+	<!-- jQuery -->
+	<script type="text/javascript" src="lib/jquery-3.7.0.min.js"></script>	
+    <!-- Roteamento do app-->
+    <script type="text/javascript" src="js/routes.js"></script>
+    <script src="cordova.js"></script>
+</body>
+x
+</html>
